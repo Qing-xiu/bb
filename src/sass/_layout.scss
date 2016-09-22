@@ -1,0 +1,12 @@
+@import "vars";
+
+.cell{
+	@include flexbox();
+	@include align-items(center);
+
+	.primary{
+		@include flex(1)
+	}
+}
+
+
